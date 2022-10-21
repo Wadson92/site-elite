@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(to right, #2C3995, #2973B9, #697E90);
+  background-image: linear-gradient(to right, #2c3995, #2973b9, #697e90);
 }
 
 header .container {
@@ -112,4 +112,17 @@ section article {
   text-decoration: none;
   color: white;
   font-size: large;
+}
+
+/* Trabalhar a responsividade com media query, esses valores são somente de exemplo,
+você pode verificar em que largura ou altura está quebrando e você pode ir ajustando. */
+
+@media (min-width: 400px) and (max-width: 1500px) {
+  header .container {
+    flex-direction: column;
+  }
+
+  header ul {
+    flex-direction: column;
+  }
 }
