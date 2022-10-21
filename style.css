@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html {
+  width: 100%;
+  margin: auto;
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  background-image: linear-gradient(to right, #2C3995, #2973B9, #697E90);
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 10px;
+  max-width: 980px;
+  margin: auto;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+}
+
+header nav ul li {
+  list-style: none;
+  font-size: 14px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  font-weight: bolder;
+  padding: 24px;
+  text-transform: uppercase;
+  transition: all 250ms linear 0s;
+}
+
+main {
+  display: inline-block;
+}
+
+main > article > img {
+  width: 100%;
+}
+
+section article {
+  display: flex;
+  align-items: center;
+  color: rgb(218, 39, 39);
+  font: bolder 3em Arial;
+  text-transform: uppercase;
+}
+
+#destaque > span {
+  display: flex;
+  align-items: center;
+  margin-left: 1%;
+  color: rgb(206, 22, 22);
+  font: bolder 1em Arial;
+  text-transform: uppercase;
+}
+
+.info {
+  text-align: center;
+  position: fixed;
+}
+
+#experiencia {
+  background-color: rgba(128, 128, 128, 0.356);
+  margin: 10px;
+  padding: 10px;
+}
+
+.conte-conosco {
+  text-align: center;
+  border: 2px solid #373133;
+}
+
+#saiba-mais {
+  display: flex;
+  background-color: gray;
+  border-radius: 10px;
+  border: solid 0.5px black;
+}
+
+#saiba-mais a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
